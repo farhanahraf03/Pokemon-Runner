@@ -25,7 +25,7 @@
     - Collision results in loss of a life
     - If the user collides with an obstacle, then all the obstacles and hearts in the current frame are also cleared so that user can have a fresh start
 
-![image](https://github.com/farhanahraf03/Pokemon-Runner/assets/42094234/3a61a884-cdd4-46b1-8413-2a8cf79d65b7)
+<video src='https://drive.google.com/file/d/1Krlx61keuXDBZkVfSy_itktc3k9szpnP/view?usp=drive_link' width=180/>
 
        
     b)Collision with a heart:
