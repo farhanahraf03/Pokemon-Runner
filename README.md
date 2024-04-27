@@ -13,6 +13,8 @@
 - If the user colllides with a snail or a bird then the user loses a life
 - The game ends if there are no lives left or the user exits the pygame window
 
+![](https://github.com/farhanahraf03/Pokemon-Runner/blob/master/gifs/Obstacle-Collision.gif)
+
 
 2)1up and collision:
 - 1ups are added in the form of hearts
