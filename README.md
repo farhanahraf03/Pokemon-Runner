@@ -25,8 +25,7 @@
     - Collision results in loss of a life
     - If the user collides with an obstacle, then all the obstacles and hearts in the current frame are also cleared so that user can have a fresh start
 
-[<video src='https://drive.google.com/file/d/1Krlx61keuXDBZkVfSy_itktc3k9szpnP/view?usp=drive_link' width=180/>
-](https://drive.google.com/file/d/1Krlx61keuXDBZkVfSy_itktc3k9szpnP/view?usp=drive_link)
+https://drive.google.com/file/d/1Krlx61keuXDBZkVfSy_itktc3k9szpnP/view?usp=drive_link
        
     b)Collision with a heart:
     - Collision results in gaining of a life
