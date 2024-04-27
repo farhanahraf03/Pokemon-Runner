@@ -12,6 +12,7 @@
 - If the user collides with a heart, then the user gains a new life
 - If the user colllides with a snail or a bird then the user loses a life
 - The game ends if there are no lives left or the user exits the pygame window
+
 ![image](https://github.com/farhanahraf03/Pokemon-Runner/assets/42094234/f498f115-f1da-4d11-830c-922b2362c969)
 
 
@@ -23,11 +24,15 @@
     - Obstacles are birds or snails
     - Collision results in loss of a life
     - If the user collides with an obstacle, then all the obstacles and hearts in the current frame are also cleared so that user can have a fresh start
+
 ![image](https://github.com/farhanahraf03/Pokemon-Runner/assets/42094234/3a61a884-cdd4-46b1-8413-2a8cf79d65b7)
 
        
     b)Collision with a heart:
     - Collision results in gaining of a life
     - If the user collides with a heart, then all the hearts in the current frame are also cleared so that the user cannot overload on extra lives
+
 ![image](https://github.com/farhanahraf03/Pokemon-Runner/assets/42094234/ebb0dfce-9bf4-4b85-91ee-2e908bb95bd2)
+
+
 
