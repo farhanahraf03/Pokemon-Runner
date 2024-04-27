@@ -126,7 +126,7 @@ def collision_sprite(sound, lives):
 
 	if pygame.sprite.spritecollide(player.sprite,heart_group,False):
 		sound[0].play()
-		sound[0].set_volume(0.7)
+		sound[0].set_volume(1)
 		lives=lives+1
 		heart_group.empty()
 		return True,lives
