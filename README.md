@@ -1,3 +1,5 @@
+# Runner game inspired by Google Dinosaur and Pokemon
+
 # Features Added:
 1) Lives functionality - User has 3 lives when the game begins.
 2) 1up and collision - User gains an additional life when the player collides with a heart icon in the game
