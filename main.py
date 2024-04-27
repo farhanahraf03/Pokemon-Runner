@@ -222,7 +222,7 @@ async def main():
 
 			game_active, lives = collision_sprite([heart_sound,collision_sound], lives)
 
-			if game_active is False and lives>1:
+			if game_active is False and lives>=1:
 				game_active=True
 			
 		else:
