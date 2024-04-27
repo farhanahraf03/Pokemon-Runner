@@ -18,18 +18,19 @@
 - 1ups are added in the form of hearts
 - Collision are detected using pygame.spritecollide()
 - There are 2 types of collisions:
-    a)Collision with an obstacle:
+
+    a) Collision with an obstacle:
     - Obstacles are birds or snails
     - Collision results in loss of a life
     - If the user collides with an obstacle, then all the obstacles and hearts in the current frame are also cleared so that user can have a fresh start
 
-![](https://github.com/farhanahraf03/Pokemon-Runner/blob/master/gifs/Heart-Collision.gif)
+![](https://github.com/farhanahraf03/Pokemon-Runner/blob/master/gifs/Obstacle-Collision.gif)
        
-    b)Collision with a heart:
+    b) Collision with a heart:
     - Collision results in gaining of a life
     - If the user collides with a heart, then all the hearts in the current frame are also cleared so that the user cannot overload on extra lives
 
-![image](https://github.com/farhanahraf03/Pokemon-Runner/assets/42094234/ebb0dfce-9bf4-4b85-91ee-2e908bb95bd2)
+![](https://github.com/farhanahraf03/Pokemon-Runner/blob/master/gifs/Heart-Collision.gif)
 
 
 
