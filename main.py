@@ -199,6 +199,7 @@ async def main():
 			else:
 				if event.type == pygame.KEYDOWN and event.key == pygame.K_SPACE:
 					game_active = True
+					lives=3
 					start_time = int(pygame.time.get_ticks() / 1000)
 
 
