@@ -137,6 +137,7 @@ async def main():
 			heart_group.empty()
 			sound[1].play()
 			sound[1].set_volume(0.7)
+			lives=lives-1
 			return False,lives
 		else: return True, lives
 
@@ -148,6 +149,7 @@ async def main():
 	game_active = False
 	start_time = 0
 	score = 0
+	lives=3
 
 	bg_music = pygame.mixer.Sound('audio/background.mp3')
 	bg_music.play(loops = -1)
@@ -206,9 +208,8 @@ async def main():
 			hearts_rect = hearts_surface.get_rect(center = (455,45))
 			screen.blit(hearts_surface,hearts_rect)
 			
-
 			score = display_score()
-			lives = display_lives(3)
+			lives = display_lives(lives)
 
 			player.draw(screen)
 			player.update()
@@ -222,7 +223,6 @@ async def main():
 			game_active, lives = collision_sprite([heart_sound,collision_sound], lives)
 
 			if game_active is False and lives>1:
-				lives=lives-1
 				game_active=True
 			
 		else:
